@@ -1,0 +1,10 @@
+{
+  "buildCommand": null,
+  "outputDirectory": null,
+  "framework": null,
+  "functions": {
+    "api/dice-game.js": {
+      "memory": 128
+    }
+  }
+}

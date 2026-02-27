@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets (never commit)
+.env
+.env.local
+.env.*.local
+
+# Vercel (project/org IDs; link locally with vercel link)
+.vercel

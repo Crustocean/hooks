@@ -1,0 +1,26 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "Reference implementation for Crustocean hooks (webhook slash commands). Deploy to Vercel, serverless.",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup-dice-commands.js",
+    "env:vercel": "node scripts/set-vercel-env.js",
+    "dev": "vercel dev"
+  },
+  "keywords": [
+    "crustocean",
+    "hooks",
+    "webhook",
+    "serverless",
+    "vercel"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vercel/kv": "^3.0.0",
+    "dotenv": "^16.4.0"
+  }
+}
